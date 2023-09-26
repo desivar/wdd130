@@ -8,8 +8,7 @@ Fonts are separated by a & */
   --primary-color: #17c3b2  ;
   --secondary-color: #ffd166 ;
   --accent1-color: #fe6d73;
-  --accent2-color: white;
-
+  --accent2-color: #175676;
   /* change the values below to your chosen font(s) */
   --heading-font: "IM Fell French Canon";
   --paragraph-font: Roboto ;
