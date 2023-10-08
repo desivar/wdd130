@@ -1,0 +1,23 @@
+
+body {
+    text-align: center;
+  }
+  body{
+    max-width: 800px;
+    margin: 0 auto;
+  padding: 4em;
+  font-size: 18px;
+  text-align: center;
+}
+  
+  main {
+    background-color: rgb(164, 152, 168);
+    background: size max 800px;
+    
+  }
+
+    ol{
+      width: 350px;
+      margin-left: auto;
+      margin-right: auto;
+    }
