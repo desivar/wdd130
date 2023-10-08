@@ -131,6 +131,9 @@ nav a.book{
         grid-row: 6/7;
         box-shadow: 5px 5px 10px #6f7364;
     }
+    #background {
+        height: 725px;
+    }
     .mountains {
         grid-column: 2/7;
         grid-row: 5/8;
@@ -143,9 +146,7 @@ nav a.book{
   
 
 
-  #background {
-    height: 725px;
-}
+  
 
 /*empieza/Footer*/
 footer p {
