@@ -1,0 +1,19 @@
+*div {
+  max-width: 800px;
+  margin:0, auto
+}
+
+body {
+  text-align: center;
+}
+h1, h2{
+  color:white
+}
+
+h1, h2  {
+  font-family: 'Times New Roman', Times, serif;
+
+}
+*{ box-sizing: border-box;
+}
+
