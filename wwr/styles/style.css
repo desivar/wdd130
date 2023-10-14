@@ -6,8 +6,9 @@
 }
 nav a{
     text-align: center;
+
 }
-#hero-msg h1
+#hero-msg h1,
 #hero-msg h4{
     text-align: center;
 }
@@ -28,10 +29,20 @@ body{
 header{
     background-color: #2a9d8f ;
 }
-nav:a color{
-    background-color:white ;
-}.book color, .join color{
+nav:a {
+    color:white ;
+    padding:14px;
+    text-decoration: none;
+}
+nav a:hover{
+    background-color: white;
+}
+.book , .join color{
    background-color:#e76f51 ; 
+}
+.book:hover,
+.join:hover{
+    background-color:#e9c46a ;
 }
 #background{
     background-color:#264653;
@@ -41,4 +52,19 @@ nav:a color{
 }
 footer{
     background-color: #2a9d8f;
+}
+footer{
+    text-decoration: none;
+}
+footer p{
+    font-size: 1.2em;
+}
+footer p a:hover{
+    text-decoration: underline;
+}
+.logo,.icon{
+    width: 80px;
+}
+#hero-img{
+    width: 100%;
 }
