@@ -5,27 +5,28 @@
     margin:0 auto;
 }
 nav a{
-    text-align: center;
+    text-align:center;
 
 }
 #hero-msg h1,
 #hero-msg h4{
-    text-align: center;
+    text-align:center;
 }
 .buttom-box{
-    text-align: center;
+    text-align:center;
 
 }
 main section{
-    text-align: center;
+    text-align:center;
 }
 #background{
-    height: 725px;
+    height:725px;
 }
 
 body{
     background-color:#e9c46a;
 }
+/*Start nav*/
 header{
     background-color: #2a9d8f ;
 }
@@ -38,7 +39,7 @@ nav a:hover{
     background-color: white;
 }
 .book , .join color{
-   background-color:#e76f51 ; 
+   background-color:#2a9d8f ; 
 }
 .book:hover,
 .join:hover{
