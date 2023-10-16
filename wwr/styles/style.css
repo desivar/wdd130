@@ -1,8 +1,10 @@
 /* first step is to import fonts*/
 
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+font-family:
 #content{
     max-width: 1600px;
-    margin:0 auto;
+    text-align:center;
 }
 nav a{
     text-align:center;
@@ -22,40 +24,85 @@ main section{
 #background{
     height:725px;
 }
-
+#log_link{
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
 body{
     background-color:#e9c46a;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+h2{
+    margin: 0;
 }
 /*Start nav*/
 header{
     background-color: #2a9d8f ;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 nav:a {
-    color:white ;
-    padding:14px;
+    
     text-decoration: none;
+    color:#264653;
+    text-align: center;
+    text-decoration:underline;
 }
 nav a:hover{
     background-color: white;
 }
-.book , .join color{
-   background-color:#2a9d8f ; 
+.book , .join {
+    text-decoration: none;
+    color: white;
+   background-color:#264653; 
+   font-size: 18px;
+   margin-top: 50px;
+   padding: 15px 30px;
+   border: radius 5px; 
+   
+
 }
 .book:hover,
 .join:hover{
     background-color:#e9c46a ;
 }
+
 #background{
     background-color:#264653;
 }
 .msg{
     background-color: #e76f51;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 1.5em;
+    padding: 35px;
+
+}
+
+.msg p{
+    font-size: .8em;
+    padding-bottom: 15px;
+}
+.card-img{
+
+    border: 10px solid #e76f51;
+}
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px;
 }
 footer{
     background-color: #2a9d8f;
+    
+}
+footer .social img{
+    padding-top: 15px;
 }
 footer{
     text-decoration: none;
+    padding:25px 50px ;
 }
 footer p{
     font-size: 1.2em;
@@ -63,8 +110,15 @@ footer p{
 footer p a:hover{
     text-decoration: underline;
 }
+.home-title{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 3em;
+    margin-top: 10px;
+    color:#264653;
+}
 .logo,.icon{
     width: 80px;
+    padding-top: 10px;
 }
 #hero-img{
     width: 100%;
