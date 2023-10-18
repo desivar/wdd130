@@ -1,9 +1,24 @@
-
-#content{
-    max-width: 800px;
+body {
+    margin: 0;
+    background-color: gray;
 }
-footer{
-    background-color: rgb(215, 235, 250);
-    padding: 100px;
-    width: 64%;
+#hero {
+    padding: 0em;
 }
+#hero-img {
+    width: 100%;
+    padding: none;
+}
+#images-container {
+    margin: 0 auto;
+    text-align: center;
+}
+.images {
+    border-radius: 50%;
+    border: 15px solid rgb(72, 72, 72);
+    margin: 3%;
+    width: 20%
+}
+/* * {
+    border: 5px dashed greenyellow;
+} */
