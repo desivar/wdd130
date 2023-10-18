@@ -1,18 +1,19 @@
-/* first step is to import fonts*/
+/* first step is to import fonts if theres no in the ones provided in the link of class*/
 
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
-font-family:
+    
+/* set the max-width*/
 #content{
     max-width: 1600px;
     text-align:center;
+    width:auto;
+    margin:0px auto 0px auto;
 }
-nav a{
-    text-align:center;
 
-}
 #hero-msg h1,
 #hero-msg h4{
     text-align:center;
+    margin-top: 100px;
+    padding-top: 50px;
 }
 .buttom-box{
     text-align:center;
@@ -24,7 +25,7 @@ main section{
 #background{
     height:725px;
 }
-#log_link{
+#logo_link{
     padding-top: 5px;
     justify-self: center;
     align-self: center;
@@ -39,7 +40,7 @@ body{
 h2{
     margin: 0;
 }
-/*Start nav*/
+
 header{
     background-color: #2a9d8f ;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -54,7 +55,19 @@ nav:a {
 nav a:hover{
     background-color: white;
 }
-.book , .join {
+.book {
+    
+    text-decoration: none;
+    color: white;
+   background-color:#264653; 
+   font-size: 18px;
+   margin-top: 50px;
+   padding: 15px 30px;
+   border: radius 5px; 
+   
+
+}
+ .join {
     text-decoration: none;
     color: white;
    background-color:#264653; 
@@ -116,10 +129,15 @@ footer p a:hover{
     margin-top: 10px;
     color:#264653;
 }
-.logo,.icon{
+.logo {
     width: 80px;
-    padding-top: 10px;
-}
+    }
+    .icon{
+        width:80px;
+        padding-top: 10px;   
+    }
+    
+
 #hero-img{
     width: 100%;
 }
