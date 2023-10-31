@@ -2,6 +2,9 @@
 Any spaces in your font name should be replaced with a +. 
 Fonts are separated by a | */
 @import url('https://fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC|Lato');
+@import url(font-family: 'Noto Sans Mono', monospace;
+font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Serif', serif;);
 
 :root {
   /* change the values below to your colors from your palette */
@@ -20,7 +23,7 @@ Fonts are separated by a | */
   --paragraph-color-on-white: #ffafcc; /* paragraph text on a white background */ 
   --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
   --paragraph-background-color: #bde0fe ;
-  --nav-link-color: #a2d2ff;
+  --nav-link-color: black;
   --nav-background-color: #d0f4de;
   --nav-hover-link-color: white;
   --nav-hover-background-color:#d0f4de;
@@ -41,7 +44,8 @@ img {
   margin: 0 auto;
 }
 h1, h2, h3, h4, h5, h6 {
-  font-family: var(--heading-font);
+  font-family: 'Noto Sans Mono', monospace;
+  
   color: var(--headline-color-on-white);
 }
 h2 {
@@ -143,7 +147,7 @@ nav a:hover {
 }
 .sm-home {
   grid-area: home;
-  background-color: #bde0fe;
+  background-color:#ffafcc;
   line-height: 3em;
 }
 .sm-page2 {
