@@ -2,9 +2,8 @@
 Any spaces in your font name should be replaced with a +. 
 Fonts are separated by a | */
 @import url('https://fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC|Lato');
-@import url(font-family: 'Noto Sans Mono', monospace;
-font-family: 'Roboto', sans-serif;
-font-family: 'Roboto Serif', serif;);
+@import url('Noto Sans Mono'), monospace;
+
 
 :root {
   /* change the values below to your colors from your palette */
