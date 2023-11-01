@@ -163,7 +163,7 @@ nav a.book{
     }
 
     .msg {
-        background-color: #e9c46a;
+        background-color:aliceblue;
         padding: 35px;
         grid-column: 6/10;
         grid-row: 6/7;
@@ -195,7 +195,7 @@ nav a.book{
     }
     footer a:hover{
         text-decoration: none;
-        color: black;
+        color:#09b8b8;
     }
     footer{
         padding: 25px 50px;
@@ -245,7 +245,7 @@ nav a.book{
     }
     .home-title {
         font-size: 25px;
-        color: white;
+        color:#e76f51;
     }
     .rivers-card, .camping-card, .rapids-card { 
         margin: 50px auto;
