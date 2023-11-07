@@ -1,0 +1,28 @@
+/*  start plan*/
+@import('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Serif:opsz&display=swap');
+
+:root{
+
+--primary-color:#37bbd5; 
+--secondary-color:#e76f51 ;
+--accent1-color:#264653;
+--accent2-color:#2a9d8f;
+}
+--heading-font:'Roboto Serif', serif;
+ --paragraph-font:'Roboto', sans-erif;
+
+--headline-color-on-white: #e76f51;/* headlines on a white background */ 
+  --headline-color-on-color: white; /* headlines on a colored background */ 
+  --paragraph-color-on-white: #264653; /* paragraph text on a white background */ 
+  --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
+  --paragraph-background-color: #37bbd5  ;
+  --nav-link-color:#37bbd5;
+  --nav-background-color: 2a9d8f;
+  
+
+  --nav-hover-link-color: white;
+  --nav-hover-background-color: #e76f51;
+  
+}
+
+  
