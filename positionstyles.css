@@ -188,7 +188,7 @@ width: 100%;
 } 
 .yellow5 {
   width: 100%; 
-  min: height 120px;
+  min-height:  120px;
   background-color: gold; 
 
 } 
