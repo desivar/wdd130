@@ -44,18 +44,115 @@ img.logo{
     margin-top: 0px;
 }
 
-.container{
+body{
+    text-align: center;
+    font-family:cursive;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+    background-color:#b4dcdf;
+    
+    
+    
+}      
+h1{
+    display: block;
+    background: #4280bb;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border:7px solid white;
+    font-size: 50px;
+    color:white;
 
-    width: 100%;
-    height: 100vh;
-    background-image:url(images/lhero.jpg);
-    background: cover;
-    position: relative;
+}
+/* recordar orden*/
+.box{
+    background-image: url(images/background.jpg);
+    padding: 100px 75px;
+    margin: 75px;
+    background-position: center;
+    border:4px #527375;
+}
+.btn{
+    display: inline-block;
+    text-decoration: none;
+    padding: 14px 40px;
+    color:whitesmoke;
+    background-image: linear-gradient(45deg,#4280bb,#37bbd5,#37cad5);
+    font-size: 14;
+    border-radius: 30px;
+    border-top-right-radius: 0;
+    border:6px solid whitesmoke;
+}
+/*  seccion de imagenes tipo enmarcadas*/
+
+.container{
+    display: flex;
+    box-sizing:border-box;
+    padding: 0;
+    margin:0;
+    justify-content: center;
+    flex-wrap: wrap;  
+
 }
 
 
+.card{
 
+    background: whitesmoke;
+    width:400px;
+    height:500px;
+    margin:16px;
+    border-radius: 15px;
+    border:2px solid white;
+    
+}
 
+.card-img{
+    
+    height:170px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 15px;
+    border: 2px solid white;
+    box-shadow: #304257;
+}
+
+.card-1{
+    background-image: url(../images/1.png);
+    
+}
+
+.card-2{
+    background-image: url(../images/2.png);
+}
+
+.card-3{
+    background-image: url(../images/3.png);
+}
+.card h2{
+padding:4px;
+}
+.card p{
+    padding:5px;
+}
+
+.card a{
+    background-color:#527375;
+    color:antiquewhite;
+    padding:15px 20px;
+    display: block;
+    text-align: center;
+    margin:20px 50px;
+    text-decoration: none;
+}
+.card:hover{
+    background-color: #304257;
+    color:white;
+    cursor:pointer;
+    transform:scale(1.04);
+    transition:all 2s ease;
+}
 
 
 footer a{
@@ -74,7 +171,7 @@ footer{
     align-items: center;
     color: #e2df08;
     text-align: left;
-    background-color: #264626;
+    background-color: #304257;
 }
 .button {
     /* Alinear buttoms*/
