@@ -1,0 +1,50 @@
+#content{
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+/*importante, recordar escribir este parametro,para que haya una mejor imagen de las paginas en diferentes devices*/
+
+
+header{
+    display: grid;
+    grid-template-columns: 150px auto;
+    background-color: #09b8b8;
+    text-align: left; 
+    color: white;  
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 0px 0px;
+    margin-top: 0px;
+    
+}
+/* luego el logo*/
+#logo_link {
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+/*despues del logo nav*/
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+nav a {
+    color:white;
+    text-decoration: none;
+    padding: 30px;
+    padding-top: 30px;
+    
+
+}
+
+nav a:hover{
+    color: black;
+}
+/* dimensiones de logo*/
+img.logo{
+    width: 80px;
+    padding: 15px 15px;
+    margin-top: 0px;
+}
