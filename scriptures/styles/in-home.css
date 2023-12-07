@@ -9,7 +9,7 @@
 header{
     display: grid;
     grid-template-columns: 150px auto;
-    background-color: #09b8b8;
+    background-color:#E4C1F9;
     text-align: left; 
     color: white;  
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -36,7 +36,6 @@ nav a {
     padding: 30px;
     padding-top: 30px;
     
-
 }
 
 nav a:hover{
@@ -44,7 +43,118 @@ nav a:hover{
 }
 /* dimensiones de logo*/
 img.logo{
-    width: 80px;
-    padding: 15px 15px;
+    width: 100px;
+    padding: 20px 20px;
     margin-top: 0px;
 }
+body{
+    text-align: center;
+    font-family: cursive;
+    font-size: 30px;
+    margin:0;
+    padding: 0;
+    background-color:#ffafcc;
+    height:100vh;
+    display:grid;
+
+}
+.hero-image{
+    background-image: url(../images/a2d2ff.png);
+    height:50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: realtive;
+}
+
+.wrapper{
+    
+    box-sizing: content-box;
+    background-color: white;
+    height:70px;
+    width: fit-content;
+    padding: 50px 30px;
+    display:flex;
+    border-radius: 8px;
+    box-shadow: 0 20px 25px rgba(0,0,0,0.16);
+    
+    
+}
+
+
+.wrapper{
+position:absolute;
+    top:85%;
+    left: 35%;
+    
+}
+
+.words{
+    overflow: hidden;
+}
+
+span{
+    display:block;
+    height: 100%;
+    padding-left: 10px;
+    color:#3574bb;
+    animation:spin_words 6s infinite;
+}
+
+@keyframes spin_words{
+    10%{
+        transform:translateY(-112%);
+    }
+    25%{
+        transform : translateY(-100%);
+    }
+    35%{
+        transform:translateY(-212%);
+    }
+    50%{
+        transform: translateY(-200%);
+    }
+        60%{
+            transform: translateY(-312%);
+        }
+            75%{
+                transform:translateY(-300%);
+            }
+                85%{
+                    transform:translateY(-412%);
+                }
+                    100%{
+                        transform: translateY(-400%);
+                    }   
+    
+
+                }
+
+
+            
+footer a{
+    text-decoration: none;
+    color: white;
+}
+footer a:hover{
+    text-decoration: none;
+    color:#09b8b8;
+}
+footer{
+    padding: 25px 50px;
+    margin-top: 200px; 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #e2df08;
+    text-align: left;
+    background-color:#4671a1;
+}.button {
+    /* Alinear buttoms*/
+    padding-left: 90px; 
+  }
+  
+  button {
+    
+    margin-left: .5em;
+  }
