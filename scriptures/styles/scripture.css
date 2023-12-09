@@ -1,50 +1,4 @@
-#content{
-    max-width: 1600px;
-    margin: 0 auto;
-}
-header{
-    display: grid;
-    grid-template-columns: 150px auto;
-    background-color:#ffc8dd;
-    text-align: left; 
-    color: white;  
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    padding: 0px 0px;
-    margin-top: 0px;
-    width: 100%;
 
-    
-}
-/* luego el logo*/
-#logo_link {
-    padding-top: 5px;
-    justify-self: center;
-    align-self: center;
-}
-/*despues del logo nav*/
-nav{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-
-}
-nav a {
-    color:white;
-    text-decoration: none;
-    padding: 30px;
-    padding-top: 30px;
-    
-}
-
-nav a:hover{
-    color: black;
-}
-/* dimensiones de logo*/
-img.logo{
-    width: 100px;
-    padding: 20px 20px;
-    margin-top: 0px;
-}
 body{
     background-color: #a2d2ff;
 }
@@ -135,33 +89,3 @@ ul li{
     box-shadow: inset 0 0 5px #cdb4db;
     border-radius: 4px;
 }
-footer a {
-    text-decoration: none;
-    color: white;
-}
-
-footer a:hover{
-    text-decoration: none;
-    color:#09b8b8;
-}
-footer{
-
-    padding: 25px 50px;
-    margin-top: 200px;
-    width:100%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    color: #fff;
-    text-align: left;
-    background-color:#a2a8ff;
-}
-.button {
-    /* Alinear buttoms*/
-    padding-left: 90px; 
-  }
-  
-  button {
-    
-    margin-left: .5em;
-  }

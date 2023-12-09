@@ -25,20 +25,8 @@ header{
     justify-self: center;
     align-self: center;
 }
-/*despues del logo nav*/
-nav{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
 
-}
-nav a {
-    color:white;
-    text-decoration: none;
-    padding: 30px;
-    padding-top: 30px;
-    
-}
+
 
 nav a:hover{
     color: black;
@@ -53,29 +41,17 @@ img.logo{
 body{
     text-align: center;
     font-family: cursive;
-    
     background-color:#bde0fe;
     height: 100vh;
     display: grid;
     
-
 }
 
 h1{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: #fff;
+    color: #fff;                                                                                                                                                                                        
 }
-.hero-img{
-    background-image: url(../images/a2d2ff.png);
-    height:35%;
-    width: 50%;
-    
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position:relative;
-    
-}
+
    .wrapper{
     position:absolute;
     box-sizing: content-box;
@@ -150,11 +126,12 @@ list-style: none;
 img{
  justify-content: space-between;
 padding:15px;
-display:inline-flex
-
+display:inline-flex;
+}
+img{
+    display: grid;
 
 }
-
 footer a {
     text-decoration: none;
     color: white;
