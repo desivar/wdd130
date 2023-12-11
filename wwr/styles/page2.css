@@ -153,7 +153,10 @@ padding:4px;
     transform:scale(1.04);
     transition:all 2s ease;
 }
-
+.container-2{
+    display: flex;
+    justify-content: center;
+}
 
 footer a{
     text-decoration: none;
