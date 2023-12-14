@@ -7,7 +7,7 @@
 
 
 body{
-    background-color: rgb(43, 43, 196);
+    background-color:#ffc8dd;
     font-family: "noto sans","loto",sans-serif;
     font-size: 22px;
 }
@@ -71,7 +71,7 @@ img.hero-img{
 
 .a{
     display: inline-block;
-    border: 1px solid #304257;
+    border: 1px solid #f028b4;
     background:#09b8b8;
     padding:10px;
     color:#fff;
@@ -93,15 +93,16 @@ img.hero-img{
 }
 .ul-btn-2{
     display: inline-block;
-    background:#bde0fe;
+    background:#ffc8dd;
     text-decoration: none;
     border-radius: 5px;
 
 }
 .ul-btn-3{
     display: inline-block;
-    background:#6971dd;
+    background:#bde0fe;
     text-decoration: none;
+
     border-radius: 5px;
 }
 h1{
@@ -113,14 +114,16 @@ h1{
 h2{
     display:block;
     background:#fff;
+    border-radius: 3px;
+    color:#f028b4;
     
 
 }
-h2{
+h2
+{
     color:#f028b4;
     text-align: center;
 }
-
 
 
 
@@ -136,12 +139,16 @@ ul li{
     
     background:#6971dd;
     font-family:"noto-sans";
-
+    color:#fff;
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-top: 6px;
+    padding-bottom: 6px;
 }
 
 
 
-.container-card
+.container-card-o
 {
     display:flex;
     justify-content: center;
@@ -155,21 +162,21 @@ ul li{
 
 .card{
     
-    background:#6971dd;
-    width:400px;
-    height:500px;
+    background:#bde0fe;
+    width:360px;
+    height:400px;
     margin:16px;
     border-radius: 15px;
     border:2px solid #fff;
 
 }
 .card-img{
-    height:400px;
+    height:340px;
     margin-bottom: 15px;
     background-size: cover;
     border-radius: 15px;
-    border: 2px solid white;
-    box-shadow: #304257;
+    border: 2px solid #bde0fe;
+    box-shadow: #f028b4;
 }
 
 .card-1{
@@ -177,10 +184,10 @@ ul li{
  background-image:url(../images/pearl.jpg) ;
 }
 .card-2{
-    background-image:url(../images/templ.jpg) ;
+    background-image:url(../images/tn.jpg) ;
 }
 .card-3{
-background-image:url(../images/bbb.jpg) ;
+background-image:url(../images/bt.jpg) ;
     }
 .card-4{
 background-image:url(../images/graph.jpg) ;
@@ -193,7 +200,7 @@ background-image: url(../images/wint.jpg);
 }
 
 .card a{
-    background-color:#f028b4;
+    background-color:#6971dd;
     color:#ffff;
     padding:15px 20px;
     display: block;
@@ -201,13 +208,6 @@ background-image: url(../images/wint.jpg);
     margin:20px 50px;
     border-radius: 12px;
     text-decoration: none;
-}
-.card:hover{
-    background-color: #304257;
-    color:white;
-    cursor:pointer;
-    transform:scale(1.04);
-    transition:all 2s ease;
 }
 .container-card-p{
     display: flex;
@@ -226,7 +226,7 @@ background-image: url(../images/wint.jpg);
         
             display:inline-block;
             text-decoration: none;
-            color:#ffff;
+            color:#fff;
             background:#6971dd;
             padding:10px 60px;
             font-size: 18px;
@@ -246,7 +246,7 @@ background-image: url(../images/wint.jpg);
     .text-box-q{
         display:inline-block;
         text-decoration: none;
-        color:#ffff;
+        color:#fff;
         background:#6971dd;
         padding:10px 60px;
         font-size: 18px;
@@ -308,7 +308,87 @@ footer{
     align-items: center;
     color:#f028b4;
     text-align: left;
-    background-color: #304257;
+    background-color: #2a2f77;
 }
 
+                  /* form CSS */
 
+/* form CSS */
+form {
+    /* Center the form on the page */
+    margin: 0 auto;
+    width: 500px;
+    /* Form outline */
+    padding: 2em;
+    border: 2px solid #6971dd;
+    border-radius: 1em;
+  }
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  form li + li {
+    margin-top: 1em;
+  }
+  
+  label {
+    /* Uniform size & alignment */
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+  }
+  input,
+  textarea {
+    /* To make sure that all text fields have the same font settings
+       By default, textareas have a monospace font */
+    font: 1em sans-serif;
+  
+    /* Uniform text field size */
+    width: 300px;
+    box-sizing: border-box;
+  
+    /* Match form field borders */
+    border: 2px solid #6971dd;
+  }
+  
+  input:focus,
+  textarea:focus {
+    /* Additional highlight for focused elements */
+    border-color: #000;
+  }
+  
+  textarea {
+    /* Align multiline text fields with their labels */
+    vertical-align: top;
+  
+    /* Provide space to type some text */
+    height: 5em;
+  }
+  
+  .button {
+    /* Align buttons with the text fields */
+    padding-left: 90px; /* same size as the label elements */
+  }
+  
+  button {
+    /* This extra margin represent roughly the same space as the space
+       between the labels and their text fields */
+    margin-left: .5em;
+  }
+  
+  #feedback {
+      background-color: antiquewhite;
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      padding: .5em;
+      /* make this element invisible until we are ready for it */
+      display: none;       
+  }
+  .moveDown {
+      margin-top: 3em;
+  }
+      
